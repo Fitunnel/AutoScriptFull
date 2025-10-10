@@ -16,3 +16,10 @@ Perintah Untuk Menghubungkan Ulang Jika Terjadi Disconnect Saat Penginstallan
 ```
 screen -r -d setup
 ```
+
+Perintah untuk fix menu (manual via sftp)
+taruh file menu ke /user/local/sbin/
+lalu jalan kan perintah bawah ini
+```
+sudo chmod +x /usr/local/sbin/*
+```
